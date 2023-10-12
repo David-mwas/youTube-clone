@@ -22,13 +22,16 @@ function ChannelDetail() {
     return () => (unSubscribe, unSubscribe2);
   }, [id]);
   return (
+    // background-color: #4158D0;
+    // background-image: linear-gradient();
+
     <Box minHeight="95vh">
       <Box>
         <div
           style={{
             height: "300px",
             background:
-              "linear-gradient(90deg, rgba(0,238,247,1) 0%, rgba(206,3,184,1) 100%, rgba(0,212,255,1) 100%)",
+              "linear-gradient(90deg, rgba(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
             zIndex: 10,
           }}
         />
