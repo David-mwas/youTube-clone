@@ -20,9 +20,9 @@ function VideoCard({
     <Card
       sx={{
         width: { xs: "90vw", sm: "90vw", md: "356px", lg: "356px" },
-        boxShadow: "none",
+        boxShadow: "1px 2px 3px #3d3d3",
         borderRadius: 2,
-        background: "#333",
+        background: "#3d3d3d",
       }}
     >
       <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
@@ -39,7 +39,7 @@ function VideoCard({
             // height="40px"
             variant="p"
             fontWeight="bold"
-            fontSize="14px"
+            fontSize="11px"
             textOverflow="ellipsis"
             overflow="hidden"
             whiteSpace="no-wrap"

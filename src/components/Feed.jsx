@@ -21,6 +21,7 @@ function Feed() {
         sx={{
           height: { sx: "auto", md: "92vh" },
           borderRight: "1px solid #3d3d3d",
+          borderBottom: "1px solid #3d3d3d",
           px: { sx: 0, md: 2 },
         }}
       >
@@ -45,7 +46,7 @@ function Feed() {
         >
           {selectedCategory} <span style={{ color: "#f31503" }}>Videos</span>
         </Typography>
-        <Video videos={ videos} />
+        <Video videos={videos} />
         {/* <Video videos={Data} /> */}
       </Box>
     </Stack>
