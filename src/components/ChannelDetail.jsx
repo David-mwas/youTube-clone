@@ -31,7 +31,7 @@ function ChannelDetail() {
           style={{
             height: "300px",
             background:
-              "linear-gradient(90deg, rgba(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
+              "linear-gradient(to left bottom, #053537, #00496a, #1c529c, #9942a3, #eb1272)",
             zIndex: 10,
           }}
         />
